@@ -7,7 +7,7 @@
 /*header*/
 
 .hero{
-    height: 70vh;
+    height: 50vh;
     width: 100%;
     background-color: #6D4424;
     z-index: 1;
@@ -354,13 +354,8 @@ nav{
 }
 
 .content .subtitle{
-    font-size: 40px;
+    font-size: 60px;
     font-weight: 800;
-}
-
-.content .text{
-    font-size: 20px;
-    font-weight: 400;
 }
 
 .cage{
@@ -374,7 +369,7 @@ nav{
 
 @media (max-width:1070px){
     .content .subtitle{
-        font-size: 35px;
+        font-size: 50px;
         font-weight: 800;
     }
     
@@ -386,7 +381,7 @@ nav{
 
 @media (max-width:730px){
     .content .subtitle{
-        font-size: 30px;
+        font-size: 50px;
         font-weight: 800;
     }
     
@@ -399,7 +394,7 @@ nav{
 
 @media (max-width:500px){
     .content .subtitle{
-        font-size: 28px;
+        font-size: 40px;
         font-weight: 800;
     }
     
@@ -770,7 +765,7 @@ nav{
     background-blend-mode: darken;
     background-size: cover;
     background-repeat: no-repeat;
-    margin-top: 15px;
+    margin-top: 10px;
     font-family: 'Montserrat', sans-serif;
     overflow: hidden;
     position: relative;
