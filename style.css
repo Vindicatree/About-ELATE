@@ -9,7 +9,10 @@
 .hero{
     height: 50vh;
     width: 100%;
-    background-color: #6D4424;
+    background: rgba(0,0,0,0.56) url(ELATEBG5.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
     z-index: 1;
 }
 
