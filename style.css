@@ -772,143 +772,41 @@ nav{
     font-family: 'Montserrat', sans-serif;
     overflow: hidden;
     position: relative;
-}
-
-.content3{
-    height: 100%;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-}
-
-.content3 .subtitle{
-    color: #f2f2f2;
-    font-size: 25px;
-    font-weight: 800;
-}
-
-.card_sponsor{
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.card_sponsor img{
+.sponsorship img{
     width: auto;
-    height: 50vh;
-}
-
-.box-medpart{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-.card_medpart{
-    height: 15vh;
-}
-
-.card_medpart img{
-    width: auto;
-    height: 40vh;
-}
-
-.card_support img{
-    width: auto;
-    height: 40vh;
+    height: 130vh;
 }
 
 @media (max-width: 790px){
-    .card_sponsor img{
+    .sponsorship img{
         width: auto;
-        height: 40vh;
-    }
-    .card_medpart img{
-        width: auto;
-        height: 30vh;
-    }
-    
-    .card_support img{
-        width: auto;
-        height: 30vh;
-    }
-
-    .card_medpart{
-        height: 12vh;
+        height: 100vh;
     }
 }
 
-@media (max-width: 640px){
-    .card_sponsor img{
+@media (max-width: 600px){
+    .sponsorship img{
         width: auto;
-        height: 35vh;
-    }
-    .card_medpart img{
-        width: auto;
-        height: 25vh;
-    }
-    
-    .card_support img{
-        width: auto;
-        height: 25vh;
-    }
-
-    .card_medpart{
-        height: 10vh;
-    }
-
-    .sponsorship{
-        height: 40vh;
+        height: 90vh;
     }
 }
 
 @media (max-width: 520px){
-    .card_sponsor img{
+    .sponsorship img{
         width: auto;
-        height: 30vh;
-    }
-    .card_medpart img{
-        width: auto;
-        height: 20vh;
-    }
-    
-    .card_support img{
-        width: auto;
-        height: 20vh;
-    }
-
-    .card_medpart{
-        height: 8vh;
-    }
-
-    .sponsorship{
-        height: 35vh;
+        height: 75vh;
     }
 }
 
 @media (max-width: 440px){
-    .card_sponsor img{
+    .sponsorship img{
         width: auto;
-        height: 25vh;
-    }
-    .card_medpart img{
-        width: auto;
-        height: 15vh;
-    }
-    
-    .card_support img{
-        width: auto;
-        height: 15vh;
-    }
-
-    .card_medpart{
-        height: 7vh;
-    }
-
-    .sponsorship{
-        height: 28vh;
+        height: 65vh;
     }
 }
 
